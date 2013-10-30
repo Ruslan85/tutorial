@@ -6,6 +6,7 @@ group :development, :test do
 	gem 'mysql2'
 	gem 'rspec-rails'
 	gem 'guard-rspec', '1.2.1'
+  gem 'bootstrap-sass', '2.1'
 
   gem 'guard-spork', :github => 'guard/guard-spork' 
   gem 'spork', '0.9.2'
