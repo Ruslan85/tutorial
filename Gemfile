@@ -7,10 +7,15 @@ group :development, :test do
 	gem 'rspec-rails'
 	gem 'guard-rspec', '1.2.1'
   gem 'bootstrap-sass', '2.1'
+  gem 'bcrypt-ruby', '3.0.1'
 
   gem 'guard-spork', :github => 'guard/guard-spork' 
   gem 'spork', '0.9.2'
   gem 'childprocess'
+end
+
+group :development do
+  gem 'annotate', '2.5.0'
 end
 
 group :assets do
